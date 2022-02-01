@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Monda', sans-serif;
+}
+
+@import './variables';
+
+/*============================== HEADER ===========================*/
+
+header{
+    height: 55px;
+    background-color: $cool-bordo;
+    padding:0px 70px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    .logo{
+        color:$cool-blanco;
+    }
+
+    nav{
+        ul{
+            list-style: none;
+
+            li{
+                display: inline-block;
+                padding:8px;
+
+                a{
+                    text-decoration: none;
+                    color: $cool-negro;
+                }
+            }
+
+        }
+    }
+}
+
+
+
+/* ====================== INDEX ===============================*/ 
+
+section{
+    .box_img_central{
+        
+        background-color:$cool-negro;
+
+        .img_central{
+            width: 100%;
+        }
+    }
+
+    .box_text_central{
+        background-color:$cool-negro;
+        text-align: center;
+        color: $cool-blanco;
+    }
+
+    .box_btn_central{
+        background-color:$cool-negro;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        
+        a {
+            text-decoration: none;
+            color: $cool-blanco;
+            .btn_central{
+                text-align: center;
+                width:200px;
+                border-radius: 20px;
+                background-color:$cool-bordo;
+                margin-top: 25px;
+
+            }
+        }
+    }
+}
