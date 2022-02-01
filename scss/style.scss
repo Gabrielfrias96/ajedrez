@@ -4,38 +4,16 @@
     font-family: 'Monda', sans-serif;
 }
 
+
+
 @import './variables';
 
 /*============================== HEADER ===========================*/
 
-header{
-    height: 55px;
-    background-color: $cool-bordo;
-    padding:0px 70px;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
+.header {
+    padding:5px 60px;
+    background-color: $cool-bordo ;
 
-    .logo{
-        color:$cool-blanco;
-    }
-
-    nav{
-        ul{
-            list-style: none;
-
-            li{
-                display: inline-block;
-                padding:8px;
-
-                a{
-                    text-decoration: none;
-                    color: $cool-negro;
-                }
-            }
-
-        }
-    }
 }
 
 
@@ -43,6 +21,7 @@ header{
 /* ====================== INDEX ===============================*/ 
 
 section{
+    background-color:$cool-negro;
     .box_img_central{
         
         background-color:$cool-negro;
@@ -59,6 +38,7 @@ section{
     }
 
     .box_btn_central{
+        
         background-color:$cool-negro;
         display:flex;
         justify-content:center;
@@ -72,7 +52,6 @@ section{
                 width:200px;
                 border-radius: 20px;
                 background-color:$cool-bordo;
-                margin-top: 25px;
 
             }
         }
