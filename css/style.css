@@ -8,7 +8,8 @@
   background-color: #C3423F; }
 
 footer {
-  background-color: #C3423F; }
+  background-color: #C3423F;
+  color: #000000; }
   footer .box_redesSociales {
     text-align: center;
     font-size: 2rem; }
@@ -44,3 +45,13 @@ section {
         width: 200px;
         border-radius: 20px;
         background-color: #C3423F; }
+
+/*================================ Contacto ==============================*/
+.form_container {
+  height: 80vh; }
+  .form_container .encabezado_contact {
+    color: #FFFFFF; }
+  .form_container .img_contact {
+    border-radius: 25px;
+    height: 400px;
+    width: 300px; }

@@ -52,3 +52,19 @@ section{
         }
     }
 }
+
+/*================================ Contacto ==============================*/
+
+
+.form_container{
+    height:80vh;
+    .encabezado_contact{
+        color:$cool-blanco;
+    }
+
+    .img_contact{
+        border-radius:25px;
+        height:400px;
+        width:300px;
+    }
+}
