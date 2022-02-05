@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monda:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Ajedrez Ezequiel</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light header ">
+        <div class="container-fluid d-flex justify-content-between align-items-center text-center">
+          <a class="navbar-brand" href="../index.html">Ezequiel</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="clases.html">Clases</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">Sobre Mí</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="faq.html">Preguntas Frecuentes</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <h1 class="col-12 classes_title mt-5 text-center">CLASES</h1>
+                <div class="col-lg-6 col-md-12">
+                    <h4 class="card_name mt-2">INDIVIDUALES</h4>
+                    <div class="card mt-3 mb-5">
+                        <img class="img-fluid card_img" src="../assets/card1.jpg" alt="clases individuales">
+                        <button id="abrirIndividuales" class="btn btn-primary">Ver más</button>
+                    </div>
+                </div> 
+                <div class="col-lg-6 col-md-12">
+                    <h4 class="card_name mt-2">GRUPALES</h4>   
+                    <div class="card mt-3 mb-5">
+                        <img class="img-fluid card_img" src="../assets/card2.jpg" alt="clases grupales">
+                        <button id="abrirGrupales" class="btn btn-primary">Ver más</button>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </section>
+
+    <section id="individuales" class="hidden">
+        <button id="cerrarDiv" class="btn btn-danger fa-pull-right">X</button>
+        <h2>CLASES INDIVIDUALES</h2>
+        <p>Personalizadas según tus objetivos y conocimientos previos. Se organiza el contenido a estudiar y entrenar y se realiza un seguimiento intensivo del progreso del alumno.
+        Para niños o adultos empleamos las clases uno a uno para poder conocer el estilo y capacidades de cada individuo.
+        Podemos comenzar desde lo más básico o analizando las fortalezas y debilidades a la hora de sentarse en el tablero.
+        Aprendemos a dominar las plataformas digitales que empleamos que nos permiten un análisis minucioso y un mejor aprendizaje de los aciertos y errores.</p>
+    </section>
+
+    <section id="grupales" class="hidden">
+        <button id="cerrarDiv2" class="btn btn-danger fa-pull-right">X</button>
+        <h2>CLASES GRUPALES</h2>
+        <p>Grupos reducidos de 2 a 4 integrantes:
+        Se aborda un contenido específico de los temas principales que necesita un jugador de ajedrez para mejorar. Aperturas, Táctica, Estrategia, Finales… y mucho más!
+        Consultá por el temario, fechas y horarios.
+        Cuando el alumno se siente seguro fomentamos las clases en grupos reducidos de manera de realizarlas más dinámicas, para que el estudiante interactúe y mantenga un diálogo franco con el contrincante y para que mutuamente se ayuden a mejorar en sus habilidades analíticas y estratégicas
+        No importa si están en ciudades diferentes. La tecnología que empleamos nos permite sentarnos frente a personas a muchos kilómetros de distancia pero con capacidades similares para potenciar nuestro juego.</p>
+    </section>
+
+    <footer>
+        <div class="box_redesSociales pt-2">
+            <i class="fab fa-instagram-square"></i>
+            <i class="fab fa-whatsapp-square"></i>
+            <i class="fab fa-facebook-square"></i>
+        </div>
+        <div class="box_text text-center pb-1">
+            Todos los derechos reservados
+        </div>
+    </footer>
+
+    <script src="../js/cards.js"></script>
+</body>
+</html>

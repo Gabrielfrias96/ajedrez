@@ -1,0 +1,63 @@
+.card {
+    border-radius: 20px;
+    margin-left: 21%;
+    background-color: transparent;
+    width: 56%;
+    .btn {
+        background-color: $cool-negro;
+        width: 50%;
+        position: relative;
+        top: -50px;
+        left: 24%;
+        border-color: transparent;
+        border-radius: 20px;
+        &:hover {
+            background-color: $cool-blanco;
+            color: $cool-negro;
+            box-shadow: 0 0 20px 0 $cool-blanco;
+        }
+    }
+}
+
+.card_img {
+    border-radius: 20px;
+    height: 472px;
+    box-shadow: 0 0 20px 0 $cool-blanco;box-shadow: 0 0 20px 0 $cool-blanco;   
+}
+
+.hidden {
+    display: none;
+    position: absolute;
+    background-color: $cool-negro;
+    z-index: 111;
+    top: 25%;
+    left: 30%;
+    width: 40%;
+    box-shadow: 0 0 400px 0 $cool-blanco;
+    border-radius: 20px;
+    padding: 20px;
+    h2 {
+        color: $cool-blanco;
+        padding: 20px;
+        text-align: center;
+    }
+    p {
+        color: $cool-blanco;
+        text-align: center;
+        padding: 30px;
+    }
+}
+
+
+@media only screen and (max-width: 576px) {
+    .card {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .hidden {
+        width: 80%;
+        left: 5%;
+    }
+}

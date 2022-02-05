@@ -1,0 +1,39 @@
+/*================================ Clases ==============================*/
+.classes_title {
+    color: $cool-blanco;
+  }
+
+.card_name {
+    color: $cool-blanco;
+    text-align: center;
+}
+
+/*================================ Sobre mí ==============================*/
+.about_layout {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 30px;
+    color: $cool-blanco;
+}
+
+/*================================ FAQ ==============================*/
+.faq_h1 {
+    color: $cool-blanco;
+}
+
+.faq_layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  p {
+    color: $cool-blanco;
+    width: 60%;
+  }
+  img {
+    width: 20%;
+  }
+}
+
