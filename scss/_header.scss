@@ -3,3 +3,12 @@
     background-color: $cool-bordo ;
 
 }
+
+li {
+	&:hover {
+		font-weight: 700;
+	}
+	.active-page {
+		font-weight: 900;
+	}
+}

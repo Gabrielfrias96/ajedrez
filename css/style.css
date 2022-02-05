@@ -8,6 +8,12 @@
   padding: 5px 60px;
   background-color: #C3423F; }
 
+li:hover {
+  font-weight: 700; }
+
+li .active-page {
+  font-weight: 900; }
+
 footer {
   background-color: #C3423F;
   color: #000000; }
